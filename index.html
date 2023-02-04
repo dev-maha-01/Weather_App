@@ -5,8 +5,33 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Testing</title>
+    <link rel="stylesheet" href="/index.css">
 </head>
 <body>
-    <h1>testing</h1>
+    <div class="main-box">
+        <!-- INPUT BOX-->
+        <div class="input">
+            <input  type="text" id="input-box" class="input-box" placeholder="Enter City Name...">
+        </div>
+        <!--UPDATE DATA(DYAMIC)-->
+        <div class="dynamic-box">
+            <div class="detail">
+                <div id="city-name"></div>
+                <div id="date"></div>
+            </div>
+
+            <div class="weather-detail">
+                <div id="curr-temp"></div>
+                <div id="min-max-temp"></div>
+                <div id="curr-weather"></div>
+                <div id="curr-weather-img"></div>
+            </div>
+
+            <div class="icon">
+                <img id="icon">
+            </div>
+        </div>
+    </div>
 </body>
 </html>
+<script src="/script.js"></script>
