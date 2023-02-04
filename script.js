@@ -22,8 +22,6 @@ async function getdata(city)
 {
 let data=await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=983c651e8726d9439cae5267cf69dcb8&units=metric`);
 data=await data.json();
-console.log(data);
-localStorage.setItem("data",JSON.stringify(data));
 updateit(data);
 }
 

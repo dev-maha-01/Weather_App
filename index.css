@@ -17,7 +17,7 @@ body{
 }
 
 .main-box{
-    width: 400px;
+    width:350px;
     margin: 100px auto;
     background-color: rgba(248, 248, 255, 0.7);
     padding: 20px;
@@ -64,7 +64,8 @@ body{
 }
 
 #curr-temp{
-    font-size: 3.5em; 
+
+    font-size:50pt;
     font-weight: 700;
     margin: 20px 0;
     text-shadow: 1px 3px rgba(0, 0, 0,0.3);   
