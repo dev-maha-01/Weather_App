@@ -35,7 +35,7 @@ function updateit(data)
     maintemp.innerHTML=`${Math.round((eval(data.main.temp)))}&degC`;
 
     let mainminmax=document.getElementById("min-max-temp");
-    mainminmax.innerHTML=`${Math.round((eval(data.main.temp_max)))}&degC(min)/${Math.round((eval(data.main.temp_min)))}&degC(max)`;
+    mainminmax.innerHTML=`${Math.round((eval(data.main.temp_max)))}&degC(Min)/${Math.round((eval(data.main.temp_min)))}&degC(Max)`;
 
     let weathertype=document.getElementById("curr-weather");
     weathertype.innerHTML=`${data.weather[0].main}`
